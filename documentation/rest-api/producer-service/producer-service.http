@@ -1,0 +1,6 @@
+### Post user to consumer service
+POST http://localhost:9091/api/v1/user
+Content-Type: application/json
+Accept: application/json
+
+{ "userId": "2", "userName": "Mark" }
